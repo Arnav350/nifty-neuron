@@ -68,7 +68,9 @@ function App() {
 
           <div className="features-grid">
             <div className="feature-card">
-              <div className="feature-icon">🧠</div>
+              <div className="feature-icon">
+                <div className="icon-brain"></div>
+              </div>
               <h3>Smart Analytics</h3>
               <p>
                 Advanced machine learning algorithms analyze your data to provide actionable insights and predictive
@@ -77,31 +79,41 @@ function App() {
             </div>
 
             <div className="feature-card">
-              <div className="feature-icon">⚡</div>
+              <div className="feature-icon">
+                <div className="icon-lightning"></div>
+              </div>
               <h3>Automated Processing</h3>
               <p>Streamline your workflow with intelligent automation that handles repetitive tasks with precision.</p>
             </div>
 
             <div className="feature-card">
-              <div className="feature-icon">🎯</div>
+              <div className="feature-icon">
+                <div className="icon-target"></div>
+              </div>
               <h3>Precision Targeting</h3>
               <p>AI-driven recommendations and targeting help you reach the right audience at the right time.</p>
             </div>
 
             <div className="feature-card">
-              <div className="feature-icon">🔒</div>
+              <div className="feature-icon">
+                <div className="icon-shield"></div>
+              </div>
               <h3>Secure & Private</h3>
               <p>Enterprise-grade security ensures your data remains protected while leveraging AI capabilities.</p>
             </div>
 
             <div className="feature-card">
-              <div className="feature-icon">📊</div>
+              <div className="feature-icon">
+                <div className="icon-chart"></div>
+              </div>
               <h3>Real-time Insights</h3>
               <p>Get instant feedback and analytics with our real-time processing and monitoring capabilities.</p>
             </div>
 
             <div className="feature-card">
-              <div className="feature-icon">🚀</div>
+              <div className="feature-icon">
+                <div className="icon-rocket"></div>
+              </div>
               <h3>Scalable Solutions</h3>
               <p>From startups to enterprises, our AI solutions scale with your business needs and growth.</p>
             </div>

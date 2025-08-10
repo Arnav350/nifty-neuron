@@ -368,6 +368,214 @@
 .feature-icon {
   font-size: 3rem;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+/* Professional Icon Styles */
+.icon-brain {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
+.icon-brain::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon-brain::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+}
+
+.icon-lightning {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #ffd700 0%, #ff8c00 100%);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
+}
+
+.icon-lightning::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 20px solid white;
+}
+
+.icon-lightning::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 16px solid #ffd700;
+}
+
+.icon-target {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+}
+
+.icon-target::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.icon-target::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+}
+
+.icon-shield {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #00b894 0%, #00a085 100%);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(0, 184, 148, 0.4);
+}
+
+.icon-shield::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 25px solid white;
+}
+
+.icon-shield::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 20px solid #00b894;
+}
+
+.icon-chart {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(108, 92, 231, 0.4);
+}
+
+.icon-chart::before {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: 8px;
+  height: 20px;
+  background: white;
+  border-radius: 2px;
+}
+
+.icon-chart::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  width: 8px;
+  height: 30px;
+  background: white;
+  border-radius: 2px;
+}
+
+.icon-rocket {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(253, 121, 168, 0.4);
+}
+
+.icon-rocket::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 25px solid white;
+}
+
+.icon-rocket::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 20px solid #fd79a8;
 }
 
 .feature-card h3 {
